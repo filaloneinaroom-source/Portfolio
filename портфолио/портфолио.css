@@ -1,0 +1,298 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+     font-family: "Work Sans", sans-serif;
+  
+
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+header{
+    margin-bottom: 30px;
+}
+nav{
+    display: flex ;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+    background-color: aqua;
+}
+.nav-logo h3{
+    font-weight: 500;
+    font-size: 25px ;
+    margin-left: 6px;
+}
+.nav-logo img{
+    width: 50px;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+    background-color: beige;
+}
+.nav-links li{
+ margin-left: 40px;
+    list-style: none;
+    font-weight: 600;
+    font-size: 18;
+}
+/* hero block */
+.hero{
+    display: flex;
+}
+.hero-text{
+    width: 624px;
+    height: 444px;
+    margin: 14px 0;
+    /* border: 2px solid red; */
+    
+
+}
+.hero-img{
+    width: 553px;
+    height: 560px;
+    border-radius: 300px;
+    /* border: 1px solid blue; */
+}
+.hero-text h4{
+font-weight: 600;
+font-size: 25px;
+}
+.hero-text h1{
+    font-weight: 700;
+    font-size: 60px;
+    margin: 10px 0;
+}
+.hero-img h1 span{
+    color: blue;
+}
+.hero-text p{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.hero-btns button{
+    font-size: 20px;
+    font-weight: 600;
+    background-color: white;
+    color: blue;
+    padding: 13px 40px ;
+    border: 2px solid blue;
+    border-radius: 50px;
+}
+.hero-btns button img{
+    width: 20px ;
+    margin-left: 10px;
+}
+.hero-btns button:hover{
+    background-color: blue;
+    color: white
+
+}
+.hero-img{
+    width: 50%
+}
+.hero-img img{
+    width: 100%
+}   
+
+
+.services{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    /* border: 2px solid black; */
+    
+}
+.services-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 2px solid violet; */
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+.services-title h4{
+    font-weight: 600;
+    font-style: 20px;
+    text-transform: uppercase;
+    color: blue;
+}
+.services-title h2{
+    font-weight:700    ;
+    font-style: 45px;
+    text-transform: capitalize;
+}
+.services-title h2 span{
+    color: blue;
+}
+.services-title p{
+    width: 45%;
+}
+.services-cards{
+    background-color: white;
+    display: grid;
+    grid-template-columns: 360px 360px 360px  ;
+    grid-template-rows: 366px;
+    /* border: 2px solid violet; */
+    gap: 30px;
+    
+
+    
+}
+.services-card{
+    border: 2px solid white;
+    padding: 30px 30px 45px ;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+.services-card h3{
+    font-weight: 700;
+    font-size: 25px;
+    margin: 10px 0;
+}
+.services-card p{
+    margin-top: 10px;
+    text-decoration: none;
+    
+
+}
+.services-card a img{
+    width: 25px;
+    margin-left: 10px ;
+}
+/* our milstomes */
+.milestomes{
+    background-color: blue;
+    padding: 100px 0px 150px;
+    
+}
+.milestomes h4{
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+
+}
+.milestomes h2{
+    font-weight: 700;
+    font-size: 45px;
+    margin: 24px 0 70px;
+    color: white;
+    text-align: center;
+}
+.milstone-cards{
+background-color: white;
+display: flex;
+justify-content: space-between;
+}
+.milstone-card{
+    width: 290px;
+    border-radius: 15px;
+    border: white;
+    padding: 30px 20px ;
+    text-align: center;
+}
+.milstone-card h3{
+    font-weight: 700;
+    font-size: 45px ;
+    margin-bottom: 15px;
+
+}
+.milstone-card p{
+    font-weight: 600;
+    font-size: 20px;
+
+}
+.testimonials{
+    margin-top: 100px;
+    margin-bottom: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.testimonials h4{
+    text-transform: uppercase;
+    color: blue;
+    font-weight: 600;
+    font-size: 20px;
+
+}
+.testimonials h2{
+    margin: 43px 0 50px ;
+    font-size: 50px;
+    text-transform:capitalize;
+}
+.stars{
+    margin: 20px 0px ;
+}
+.stars img{
+    width: 20px;
+
+}
+.testimonial-cards{
+display: flex;
+justify-content: space-between;
+}
+.testimonial-card{
+    padding: 30px 20px ;
+    border-radius: 15px;
+    border: 2px solid wheat;
+    text-align: center;
+    width: 20%;
+    
+}
+.testimonial-card .card-img img{
+width: 150px;
+border-radius: 50%;
+
+}
+.testimonial-card p{
+    text-align: start;
+}
+.card-name{
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 20px 0 5px;
+}
+.card-position{
+    color: #416;
+}
+/* footer */
+.footer-logo{
+    display: flex;
+    align-items: center;
+}
+.footer-logo h3 {
+font-weight: 900;
+font-size: 25px;
+
+}
+.footer-logo p{
+    color: blue
+}
+.footer-contact{
+    display: flex;
+    align-items: center;
+}
+.footer-contact h4{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 18px;
+    color: blue;
+    margin-right: 15px ;
+}
+footer{
+    background-color: blue;
+    padding: 50px 0;
+}

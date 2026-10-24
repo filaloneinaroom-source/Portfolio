@@ -1,0 +1,62 @@
+@media screen and (max-width:1000px){
+    .hero-text{
+        width: 50px;
+        margin-top: 20px;
+    }
+    .hero-img{
+        width: 40px;
+    }
+}
+@media screen and (max-width:740px){
+ .nav{
+        display: block;
+    }
+    .nav-links{
+display: block;
+    }
+    .nav-links li{
+margin-left: 0;
+margin-top: 10px;
+    }
+    .hiro-btns button{
+margin-top: 10px;
+    }
+    .milrstone-cards{
+        flex-wrap: wrap;
+
+    }
+    .milestone-card{
+        margin-top: 10px;
+    }
+    .testimonial-cards{
+        text-wrap: wrap ;
+    }
+    .testimonial-card{
+        width: 45%;
+        margin-top: 15px;
+
+    }
+    .footer{
+       display: block;
+        
+
+}
+.footer-logo{
+    margin-top: 29px;
+
+}
+
+}
+@media screen and (max-width:650px){
+    .services-card{
+        width: 95%;
+        margin-top: 10px;
+
+    }
+    .services-cards{
+        display: block;
+    }
+}
+
+
+
